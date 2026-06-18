@@ -40,9 +40,9 @@ Solo abre tu navegador web.
 ### Lección 4: Introducción a CSS (12 minutos)
 
 - **Descripción:** Dale estilo a tu HTML con colores, fuentes y diseños.
-- **Enlace:** [Ver la lección](https://www.youtube.com/watch?v=REEMPLAZAR)
+- **Enlace:** [Ver la lección](https://www.youtube.com/watch?v=DlhaCoHixw4)
 - **Consejos clave:** Usa selectores como `body { background-color: blue; }`.
-- **Práctica:** [Abrir en CodePen](https://codepen.io/REEMPLAZAR)
+- **Práctica:** [Abrir en CodePen](https://jsfiddle.net/4y3genL2/1/)
 
 ### Lección 5: Crear una página web sencilla (15 minutos)
 
