@@ -1,70 +1,124 @@
-Lección 3: Añadir más elementos HTML
+# Guión - Lección 3: Añadir más elementos HTML
 
-Responsable: Andrea Correa
-Herramienta: CodePen sin registro
-Duración estimada: 8 minutos
+**Responsable:** Andrea Correa
 
-[0:00 – 0:30] Introducción
+**Herramienta:** codesandbox
 
-Hola, en esta lección vamos a continuar con la página que se creó en la lección anterior. Ya tenemos títulos y párrafos, pero ahora vamos a hacer que la página tenga más contenido usando listas, imágenes y enlaces.
+**Duración Estimada:** 8 minutos
 
-Al final de esta lección, tu página tendrá una lista de cosas favoritas, una imagen y un enlace que abre otra página web.
+## [0:00 – 0:30] Introducción
 
-[0:30 – 1:30] Recordatorio de la página anterior
+"Hola. En la lección anterior creamos nuestra primera página web utilizando HTML. Ya tenemos títulos y párrafos, pero una página real suele tener mucho más contenido.
 
-En la lección anterior aprendimos que HTML sirve para organizar el contenido de una página web. Usamos etiquetas como h1 para el título principal, h2 para subtítulos y p para párrafos.
+Hoy vamos a mejorar esa página agregando listas, imágenes y enlaces. Al final tendrás una página mucho más completa y aprenderás algunas de las etiquetas más utilizadas en HTML."
 
-Ahora vamos a agregar nuevos elementos debajo de lo que ya teníamos.
+---
 
-[1:30 – 3:00] Agregar una lista
+## [0:30 – 1:30] Recordando la lección anterior
 
-Primero vamos a crear una lista de cosas favoritas. Para eso usamos la etiqueta ul, que significa lista no ordenada.
+"Si vienes de la lección anterior, ya deberías tener algo parecido a esto:"
 
-Dentro de ul colocamos varios li. Cada li representa un elemento de la lista.
+```html
+<h1>¡Hola, mundo!</h1>
+
+<h2>Sobre mí</h2>
+
+<p>Me llamo Ana y tengo 15 años.</p>
+
+<p>Estoy aprendiendo a crear páginas web con HTML.</p>
+
+<h2>Mis cosas favoritas</h2>
+
+<p>Me gusta la música, los videojuegos y la programación.</p>
+```
+
+"Ya sabemos crear títulos y párrafos. Ahora vamos a añadir nuevos elementos para mostrar información de una forma más organizada."
+
+---
+
+## [1:30 – 3:30] Crear una lista
+
+"Primero vamos a agregar una lista de cosas favoritas."
+
+```html
+<h2>Mis cosas favoritas</h2>
 
 <ul>
-  <li>Escuchar música</li>
-  <li>Jugar videojuegos</li>
-  <li>Aprender programación</li>
+    <li>Los gatos</li>
+    <li>Los videojuegos</li>
+    <li>La programación</li>
 </ul>
+```
 
-La etiqueta ul crea la lista completa y cada li agrega un punto dentro de esa lista.
+"La etiqueta ul significa Unordered List, o lista no ordenada.
 
-[3:00 – 5:00] Agregar una imagen
+Dentro de ella usamos varias etiquetas li, que significan List Item o elemento de lista.
 
-Ahora vamos a agregar una imagen. Para eso usamos la etiqueta img.
+Observa cómo cada elemento aparece acompañado por un punto automáticamente."
 
-<img src="https://placekitten.com/400/250" alt="Un gatito bonito" width="400">
+---
 
-La etiqueta img no necesita cierre.
-El atributo src indica la dirección de la imagen.
-El atributo alt muestra una descripción si la imagen no carga.
-El atributo width sirve para cambiar el tamaño de la imagen.
+## [3:30 – 5:30] Agregar una imagen
 
-[5:00 – 6:30] Agregar un enlace
+"Ahora vamos a insertar una imagen en nuestra página."
 
-Ahora agregaremos un enlace usando la etiqueta a.
+```html
+<h2>Mi mascota</h2>
 
-<a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
-  Aprender más sobre HTML
+<img src="image/perrito.png" alt="Mi perrito" width="300">
+```
+
+"La etiqueta img sirve para mostrar imágenes.
+
+El atributo src indica dónde se encuentra la imagen.
+
+En este caso la imagen está dentro de la carpeta image.
+
+El atributo alt contiene una descripción alternativa y es útil cuando la imagen no puede mostrarse.
+
+Y width nos permite controlar el tamaño de la imagen."
+
+---
+
+## [5:30 – 7:00] Crear un enlace
+
+"Ahora agregaremos un enlace para que el usuario pueda visitar otra página."
+
+```html
+<h2>Mi página favorita</h2>
+
+<a href="https://www.youtube.com" target="_blank">
+    Visitar YouTube
 </a>
+```
 
-El atributo href indica a qué página nos llevará el enlace.
-El atributo target blank permite abrir el enlace en una nueva pestaña.
+"La etiqueta a proviene de la palabra anchor.
 
-[6:30 – 7:30] Repaso de etiquetas
+El atributo href indica la dirección a la que queremos enviar al usuario.
 
-Hoy aprendimos tres etiquetas nuevas:
+Y target igual a blank hace que el enlace se abra en una nueva pestaña."
 
-ul sirve para crear listas.
-li sirve para agregar elementos dentro de una lista.
-img sirve para mostrar imágenes.
-a sirve para crear enlaces.
+---
 
-También vimos atributos como src, alt, width, href y target.
+## [7:00 – 7:40] Repaso rápido
 
-[7:30 – 8:00] Cierre
+"Hoy aprendimos tres etiquetas nuevas:"
 
-¡Listo! Ahora tu página ya no tiene solo texto. También tiene una lista, una imagen y un enlace.
+* ul → crea listas.
+* li → agrega elementos dentro de una lista.
+* img → muestra imágenes.
+* a → crea enlaces.
 
-En la siguiente lección se podrá usar esta misma página para darle estilo con CSS, agregando colores, tamaños, bordes y mejor presentación.
+"También conocimos algunos atributos importantes como src, alt, width y href."
+
+---
+
+## [7:40 – 8:00] Cierre
+
+"¡Excelente trabajo!
+
+Ahora tu página ya no tiene solamente texto. También contiene listas para organizar información, imágenes para hacerla más visual y enlaces para conectar con otros sitios web.
+
+En la siguiente lección aprenderás a darle estilo a todo este contenido utilizando CSS, agregando colores, tamaños y una mejor presentación visual.
+
+¡Nos vemos en la siguiente lección!"
