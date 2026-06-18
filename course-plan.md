@@ -47,9 +47,9 @@ Solo abre tu navegador web.
 ### Lección 5: Crear una página web sencilla (15 minutos)
 
 - **Descripción:** Combina HTML y CSS para crear una página de perfil personal.
-- **Enlace:** [Ver la lección](https://www.youtube.com/watch?v=REEMPLAZAR)
+- **Enlace:** [Ver la lección](https://www.youtube.com/watch?v=t-x5R-V7_Tc&feature=youtu.be)
 - **Consejos clave:** Aplica estilos y corrige errores paso a paso.
-- **Proyecto final:** [Abrir en CodePen](https://codepen.io/REEMPLAZAR)
+- **Proyecto final:** [Abrir en CodePen](codepen.io)
 
 ### Lección 6: Consejos y próximos pasos (10 minutos)
 
